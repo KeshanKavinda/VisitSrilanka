@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Visit Srilanka</title>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" type="text/css" href="Store.css"><!--CSS file which was created by me-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lunasima:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="common.css"> <!--Common css file of navigation bar -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+      integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"><!--CSS file of footer-->
+</head>
+<body>
+    <div id="video-container">
+        <video autoplay loop muted playsinline  id="background-video">
+            <source src="img/srilankaVideo.webm" type="video/mp4">
+            </video>
+    </div>
+    <nav>
+        <img class="logo" src="img/slLogo.png" alt="">
+        <div class="navigation-icons">
+        <ul>
+            <li>
+                <a href="Thusitha_student2.html">Home</a>
+                <a href="image_gallery.html">Thumbnail images</a>
+                <a href="quiz_homepage.html">Quiz</a>
+                <a href="Sitemap.html">Site map</a>
+                <a href="Store.html">Shop</a>
+                <a href="commentsection.html">Comments</a>
+                <a href="about_us.html">About us</a>
+            </li>
+        </ul>
+        </div>
+    </nav>
+    <header>
+        <div class="nav container">
+            <h2>W E L C O M E !</h2>
+            <p class="para">Sri Lanka, historically known as Ceylon, has been famous for its spice trade for centuries. 
+                Ceylon, known as the "Jewel Box of the Indian Ocean," has a rich history and significance when it comes to gemstones.
+                The island's geographical location made it a strategic hub for the spice route, attracting traders from various parts of the world.
+                 Some of the essential spices found in Sri Lanka include cinnamon, cardamom, clove, nutmeg, and black pepper. The country's spice industry plays a 
+                vital role in its economy, and Sri Lankan spices are highly prized for their quality and flavor.<br>
+                Raksha and Kolam masks are significant cultural artifacts in Sri Lanka and hold spiritual and ritualistic importance.
+                 They are traditional wooden masks intricately carved by skilled artisans. 
+                 These masks have been used for centuries in various traditional rituals, folk dances, and performances, particularly in exorcism rituals, healing ceremonies, and festivals.<br>
+                On the otherhand Batik is a traditional textile art form in Sri Lanka, where wax is used to create intricate patterns on cloth before dyeing it.
+                 The process involves applying hot wax on the fabric to prevent the dye from penetrating certain areas, resulting in unique and beautiful designs. After dyeing, the wax is removed, leaving behind the colorful patterns.</p>
+            <i class='bx bx-shopping-bag' id="icon"></i>
+        </div>
+    </header>
+    <div class="sub">
+        <h1>ONLINE  STORE</h1>
+        <div class="product" id="product1">
+            <img src="img/sapphire.jpg"  alt="GEMS">
+            <div class="description" id="description1">
+                <a href="#" onclick = "onPageChange(description1)">G E M S</a> 
+                <p class="para">High quality Srilankan gems are now can be purchased!</p>
+            </div>
+        </div>
+        <div class="product" id="product2">
+            <img src="img/cinnamon.jpeg" alt="SPICES">
+            <div class="description" id="description2">
+                <a href="#" onclick = "onPageChange(description2)" >S P I C E S</a>
+                <p class="para">Now you can feel the taste of original flavours of Sri Lankan spices as you wish!.</p>
+            </div>
+        </div>
+        <div class="product" id="product3">
+            <img src="img/dwiNaga.jpg"  alt="MASKS">
+            <div class="description" id="description3">
+                <a href="#" onclick = "onPageChange(description3)">M A S K S</a>
+                <p class="para">It's the heritage of handicraft industry!</p>
+            </div>
+        </div>
+        <div class="product" id="product4">
+            <img src="img/whiteShirt.jpeg"  alt="BATHIK">
+            <div class="description" id="description4">
+                <a href="#" onclick = "onPageChange(description4)">B A T H I K</a> 
+                <p class="para">Bathik is fashionable as well as comfortable!</p>
+            </div>
+        </div>
+    </div>
+</div>
+    <script>
+        function onPageChange(description){
+            document.getElementById("description1").onclick=function(){window.location.href="storeOfGems.html";}          
+            document.getElementById("description2").onclick=function(){window.location.href="storeOfSpices.html";}
+            document.getElementById("description3").onclick=function(){window.location.href="storeOfMask.html";}
+            document.getElementById("description4").onclick=function(){window.location.href="storeOfBathik.html";}         
+        }
+    </script>
+    <footer>
+        <div class="footer">
+        <a href="editorD.html"><h3> Page Editor </h3></a>
+        <br>
+            <div class="icons"  >
+            <a href="https://www.instagram.com/accounts/login/"><i class="fab fa-instagram"></i></a>
+            <a href="https://www.snapchat.com/en-US"><i class="fab fa-snapchat"></i></a>
+            <a href="https://twitter.com/i/flow/login?input_flow_data=%7B%22requested_variant%22%3A%22eyJsYW5nIjoiZW4ifQ%3D%3D%22%7D"><i class="fab fa-twitter"></i></a>
+            <a href="https://web.facebook.com/login/?_rdc=1&_rdr"><i class="fab fa-facebook-f"></i></a>
+            </div><br>
+            <p class="copyright">© Copyright visit Srilanka 2023, All rights reserved.</p>
+        </div>
+    </footer>
+ </body>
+</html>

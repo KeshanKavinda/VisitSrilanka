@@ -1,0 +1,50 @@
+
+<link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+      integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+
+
+
+//meka footer eka
+
+<div class="footer">
+    <a href="editor.html"><h3> Page Editor </h3></a>
+    <br>
+
+        <div class="icons"  >
+        <a href="https://www.instagram.com/accounts/login/"><i class="fab fa-instagram"></i></a>
+        <a href="https://www.snapchat.com/en-US"><i class="fab fa-snapchat"></i></a>
+        <a href="https://twitter.com/i/flow/login?input_flow_data=%7B%22requested_variant%22%3A%22eyJsYW5nIjoiZW4ifQ%3D%3D%22%7D"><i class="fab fa-twitter"></i></a>
+         <a href="https://web.facebook.com/login/?_rdc=1&_rdr"><i class="fab fa-facebook-f"></i></a>
+        </div><br>
+        <p class="copyright">© Copyright visit Srilanka 2023, All rights reserved.</p>
+</div>
+
+
+
+//css file ekata adala tika meeka
+
+/*footer*/
+
+   
+.footer{
+    padding-bottom: 10px;   
+    padding-top: 5px;
+    background-color: rgb(65, 105, 76,0.5);
+    text-align: center;
+}
+.footer h3{
+    font-family: 'Lunasima', sans-serif;
+    color: #fff;
+    text-decoration: none;
+}
+.footer p{
+    color: rgb(255, 255, 255);
+    font-weight: 100;
+    font-family: 'Lunasima', sans-serif;
+}

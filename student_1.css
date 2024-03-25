@@ -1,0 +1,32 @@
+body{
+    background-image:url("img/presentation.png");
+    background-size: cover;
+    background-color: rgba(255, 255, 255, 0.5);}
+.splashScreen{
+    position: relative;
+    padding-top: 100px;
+    font-family: 'Times New Roman', Times, serif;
+    text-align:center;
+    animation-composition:inherit;
+}
+
+.group{
+    font-style: normal;
+    font-size: 30px;
+    color: #00010b;
+}
+.created{
+    font-size: 30px;
+    color: #21213a;
+}
+.names{
+    font-size: 30px;
+    color: #ededf4;
+    text-align: center;
+    font-weight: 300;
+    text-align:center;
+    padding-top: 50px;
+    display: inline-block;
+    text-align: justify;
+}
+

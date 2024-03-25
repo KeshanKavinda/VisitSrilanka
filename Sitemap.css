@@ -1,0 +1,53 @@
+
+body{  background-image: url(assets/img/img2.jpg); 
+    margin:0;
+    padding:0;
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-position: center;
+}
+
+
+
+    
+
+.container {
+    padding: 18px;
+    margin-top: 100px;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+
+   
+    
+}
+h3 {
+    font-size: 80px;
+    font-weight: 500;
+    text-align: center;
+    color: #3c4751;
+    font-family: "Playfair Display","Open Sans", "sans-serif";
+}
+svg {
+    height: 300px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+   
+
+
+}
+rect{
+    stroke:rgb(141, 200, 247);
+    stroke-width:3;
+}
+line {
+    stroke: rgb(141, 200, 247);
+    stroke-width: 5;
+}
+g:hover rect {
+    stroke: rgb(2, 29, 60);
+}
+
+

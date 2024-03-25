@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="Style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lunasima:wght@400;700&display=swap" rel="stylesheet">
+<link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+      integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+</head>
+<body>
+<section class= "headerComment">
+   
+<nav>
+    <img class="logo" src="website_photoes/slLogo.png" alt="">
+    <div class="navigation-icons">
+   
+    <ul>
+        <li>
+            <a href="Thusitha_student2.html">Home</a>
+            <a href="image_gallery.html">Thumbnail images</a>
+            <a href="quiz_homepage.html">Quiz</a>
+            <a href="Sitemap.html">Site map</a>
+            <a href="Store.html">Shop</a>
+            <a href="commentsection.html">Comments</a>
+            <a href="about_us.html">About us</a>
+
+        </li>
+    </ul>
+    </div>
+</nav>
+
+<div class="commentsec">
+    
+    <form class="form" action="mailto:silvathsuitha67@gmail.com" >
+        <h5>Leave a comment</h5>
+        <h6>Name</h6>
+        <input name="name" type="text" placeholder="name" required >
+        
+        <h6>Your email(This will not be published)</h6>
+        <input name="email" type="email" placeholder="email" required >
+        <h6>your gender</h6>
+       <div class="gender">
+       
+       <input type="radio" name="gender" id="male" value="male" required  >
+       <label for="male">Male</label>
+       <input type="radio" name="gender" id="female" value="Female" required>
+       <label for="female">Female</label>
+       </div>
+        
+        <h6>Comments</h6>
+        <textarea name="comments" class="textarea"  rows="5" placeholder="Write your comments here" required ></textarea>
+        
+        <h6>your ratings about this website</h6>
+        <input id="range" type="range"  >
+       
+        <button   class="button" type="submit" onclick="show(this.form)">Post comment</button>
+        
+      
+        
+
+    </form>
+    <div class="thankyou" id="thankyou">
+        <h1> Thank you!</h1>
+        <p>Your comment has benn successfully submited</p>
+        <button class="btn" id="btn" type="submit" onclick="close(this.form)">Ok</button>
+  
+    
+</div>
+</div>
+
+
+    </section> 
+    <section class="Objects">
+       
+        <div class="footer">
+            <a href="thusithaeditorpage.html"><h3> Page Editor </h3></a>
+            <br>
+        
+                <div class="icons"  >
+                <a href="https://www.instagram.com/accounts/login/"><i class="fab fa-instagram"></i></a>
+                <a href="https://www.snapchat.com/en-US"><i class="fab fa-snapchat"></i></a>
+                <a href="https://twitter.com/i/flow/login?input_flow_data=%7B%22requested_variant%22%3A%22eyJsYW5nIjoiZW4ifQ%3D%3D%22%7D"><i class="fab fa-twitter"></i></a>
+                 <a href="https://web.facebook.com/login/?_rdc=1&_rdr"><i class="fab fa-facebook-f"></i></a>
+                </div><br>
+                <p class="copyright">© Copyright visit Srilanka 2023, All rights reserved.</p>
+        </div>
+    </section>
+    <script>
+        let showpopup = document.getElementById("thankyou");
+        function show(data){
+            if(data.name.value==" "||data.email==" " ||data.comments==" ")
+           alert("please fill this form!")
+           else
+            showpopup.classList.add("show-popup");
+            
+        }
+        function close(){
+            showpopup.classList.add("thankyou");
+        }
+    </script>
+    
+
+</body>
+</html>
